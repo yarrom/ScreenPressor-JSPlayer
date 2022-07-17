@@ -17,7 +17,11 @@
 	<haxelib name="actuate" />
 	
 	<!-- assets -->
-	<assets path="assets/img" rename="img" />
+	<assets path="assets/browsing.avi" rename="browsing.avi" />
+	<!-- templates -->
+	<template path="assets/templates/index.html" rename="index.html" />
+	<!-- parameters -->
+	<setenv name="fname" value="./browsing.avi" />
 	
 	<!-- optimize output
 	<haxeflag name="-dce full" /> -->
